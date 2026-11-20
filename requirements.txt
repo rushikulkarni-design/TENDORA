@@ -1,0 +1,15 @@
+pymupdf
+pdfplumber
+pytesseract
+Pillow
+pandas
+numpy
+scikit-learn
+sentence-transformers
+faiss-cpu
+gradio
+plotly
+python-docx
+openpyxl
+xlrd
+reportlab

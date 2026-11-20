@@ -1,0 +1,43 @@
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+token.json
+secrets/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Runtime and model files
+*.joblib
+*.pt
+*.pth
+*.safetensors
+*.index
+*.bin
+
+# Uploaded tender and bidder documents
+tender_uploads/
+tendora_bidder_uploads/
+tendora_synthetic_documents/
+*.pdf
+*.xls
+*.xlsx
+*.zip
+
+# Extracted private data
+tendora_knowledge_chunks.json
+tendora_unified_documents.json
+tendora_uploaded_document_evidence.json
+tendora_certificate_extraction.json
+tendora_bidder_tender_matching.json
+
+# Generated outputs
+*.csv
+*.log
+*.tmp
